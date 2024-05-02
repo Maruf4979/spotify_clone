@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>spotify-web player:mugic for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <!-- whole body -->
+        <div class="side-bar">
+            <!-- sidebar content -->
+            <div class="nav-bar">
+                <!-- 1st part of side-bar -->
+                <div class="nav-option">
+                    <!-- 1st icon->for Home -->
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <!-- 2nd icon->for search -->
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">search</a>
+                </div>
+            </div>
+            <div class="library">
+                <!-- 2nd part of side-bar -->
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="icon">
+                        <a href="#">your-library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">create your 1st play-list</p>
+                        <p class="box-p2">it's easy.we'll help you</p>
+                        <button class="badge">create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">let's find some podcast to folllow</p>
+                        <p class="box-p2">we'll keep you updated on new episode</p>
+                        <button class="badge">Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-containt">
+            <!-- main-containt -->
+            <div class="sticky-nav">
+                <!-- top part -->
+                <div class="left-nav">
+                    <img src="./assets/backward_icon.png" alt="backward_icon" class="backward">
+                    <img src="./assets/forward_icon.png" alt="forward_icon" class="forward hide">
+                </div>
+                <div class="right-nav">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark">
+                        <i class="fa-regular fa-circle-down"></i>
+                        Install App
+                    </button>
+                    <i class="fa-sharp fa-solid fa-bell nav-item user"></i>
+                    <i class="fa-solid fa-user nav-item user"></i>
+                </div>
+            </div>
+            <!-- middle part -->
+            <div class="middle">
+                <div class="recent">
+                    <h3 class="H3">Recently played</h3>
+                    <div class="sec">
+                        <div class="sec-card">
+                            <img src="./assets/card1img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular">
+                    <h3 class="H3">Most popular Liriks</h3>
+                    <div class="sec">
+                        <div class="sec-card">
+                            <img src="./assets/card2img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                        <div class="sec-card">
+                            <img src="./assets/card3img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                        <div class="sec-card">
+                            <img src="./assets/card4img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                        <div class="sec-card">
+                            <img src="./assets/card3img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                        <div class="sec-card">
+                            <img src="./assets/card2img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                        <div class="sec-card">
+                            <img src="./assets/card4img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="charts ">
+                    <h3 class="H3"> Differnt types of charts</h3>
+                    <div class="sec">
+                        <div class="sec-card">
+                            <img src="./assets/card5img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top Song India</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                        <div class="sec-card">
+                            <img src="./assets/card6img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top Songs Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                        <div class="sec-card">
+                            <img src="./assets/card1img.jpeg" alt="img" class="card-img">
+                            <h4 class="card-title">Top 50-Global</h4>
+                            <p class="card-info">your daily update of the most playedtracks right....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="foot-top">
+                        <div class="footer-containt  Ist">
+                            <h4>Company</h4>
+                            <p><a href="#">About</a></p>
+                            <p><a href="#">Jobs</a></p>
+                            <p> <a href="#">For the Record</a> </p>
+                        </div>
+                        <div class="footer-containt">
+                            <h4>communities</h4>
+                            <p><a href="#">For Artists</a> </p>
+                            <p><a href="#">Developers</a></p>
+                            <p><a href="#">Advertising</a></p>
+                            <p><a href="#">Inventors</a></p>
+                            <p><a href="#">Vendors</a></p>
+                        </div>
+                        <div class="footer-containt">
+                            <h4>useful Links</h4>
+                            <p><a href="#">Support</a></p>
+                            <p> <a href="#">Free Mobile App</a></p>
+                        </div>
+                        <div class="footer-containt">
+                            <h4>spotify planes</h4>
+                            <p><a href="#">Premium Individual</a></p>
+                            <p><a href="#">Premium Duo</a></p>
+                            <p> <a href="#">Premium Family</a></p>
+                            <p><a href="#">Premium students</a>
+                            </p>
+                            <p><a href="#">Spotify Free</a></p>
+                        </div>
+                        <div class="footer-containt Lst">
+                            <h4>social media</h4>
+                            <img src="./assets/Fb.png" alt="fb" class="footer-icon">
+                            <img src="./assets/insta.avif" alt="ins" class="footer-icon">
+                            <img src="./assets/twitter.webp" alt="twitter" class="footer-icon">
+                        </div>
+                    </div>
+                    <!-- <div class="foot-down">
+                        <a href="#">legal</a>
+                        <a href="#">Sefety & Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Abouts Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="mugic-player">
+            <div class="album"></div>
+            <!-- 1 -->
+            <div class="player-control">
+                <!-- 2 -->
+                <div class="play-btn">
+                    <img src="./assets/player_icon1.png" alt="play" class="play-icon">
+                    <img src="./assets/player_icon2.png" alt="play" class="play-icon">
+                    <img src="./assets/player_icon3.png" alt="play" class="play-icon" id="round">
+                    <img src="./assets/player_icon4.png" alt="play" class="play-icon">
+                    <img src="./assets/player_icon5.png" alt="play" class="play-icon">
+                </div>
+                <div class="progress">
+                    <span class="cutt-time">00</span>
+                    <label for="pro">.00</label>
+                    <input type="range" name="range" min="0" max="100" class="progress-bar" step="1" id="pro">
+                    <span class="total-time">3.50</span>
+                </div>
+            </div>
+            <div class="controls">
+                <!-- 3 -->
+
+            </div>
+        </div>
+    </div>
+</body>-
+
+</html>
